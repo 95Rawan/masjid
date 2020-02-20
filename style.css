@@ -7,6 +7,514 @@
 }
 
 body {
-  font-family: 'Passion One', cursive;
+  /* font-family: 'Passion One', cursive; */
   font-family: 'Poppins', sans-serif;
 }
+
+/* Header style start */
+.navbar-section {
+  display: flex;
+  flex-direction: column;
+  background: #69d989;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3.5% 5%;
+}
+
+.je-contribue {
+  color: #000000;
+  border: 2px solid #000000;
+  background: #ffffff;
+  font-family: 'Passion One', cursive;
+  padding: 0.4em;
+  align-self: flex-end;
+  font-size: 1.5rem;
+}
+
+.assalam-aleikum {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 110%;
+  margin-top: 3%;
+}
+
+.pages-link-container {
+  font-size: 1.9rem;
+  line-height: 135%;
+  max-width: 80%;
+}
+
+.pages-links {
+  color: #ffffff;
+}
+
+.pages-links:hover {
+  color: #000000;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .je-contribue {
+    font-size: 1.3rem;
+  }
+
+  .assalam-aleikum {
+    font-size: 3.9rem;
+  }
+
+  .pages-link-container {
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 630px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .je-contribue {
+    font-size: 1.1rem;
+  }
+
+  .assalam-aleikum {
+    font-size: 3.9rem;
+  }
+
+  .pages-link-container {
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 630px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .je-contribue {
+    font-size: 0.9rem;
+  }
+
+  .assalam-aleikum {
+    font-size: 2.7rem;
+    margin-top: 5%;
+  }
+
+  .pages-link-container {
+    font-size: 1rem;
+    line-height: 135%;
+    max-width: 100%;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar {
+    margin: 7% 5%;
+  }
+
+  .je-contribue {
+    font-size: 0.7rem;
+  }
+
+  .assalam-aleikum {
+    font-size: 1.7rem;
+    margin-top: 8%;
+  }
+
+  .pages-link-container {
+    font-size: 0.7rem;
+    line-height: 135%;
+    max-width: 100%;
+  }
+}
+
+/* Header style End*/
+
+/* Body style start*/
+.mosquee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.mosquee-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6%;
+  width: 100%;
+}
+
+.mosquee-image {
+  max-width: 56%;
+  /* margin-top: 12%; */
+  align-self: flex-end;
+}
+
+.batissons-h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 94%;
+  margin-bottom: 1%;
+  width: 100%;
+  max-width: 517px;
+}
+
+h2 .digne {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.batissons-paragraph {
+  font-size: 1.6rem;
+}
+
+.soutenir-button {
+  font-family: 'Passion One', cursive;
+  color: #ffffff;
+  background: #69d989;
+  font-size: 1.3rem;
+  padding: 0.5em 0.7em;
+  font-weight: 600;
+  text-align: center;
+  position: absolute;
+  top: 58%;
+  left: 10.2%;
+}
+
+.batissons-h2,
+.batissons-paragraph {
+  margin-left: 10%;
+}
+
+.batissons-paragraph > .gray-words {
+  color: #a3a3a3;
+}
+
+.batissons-paragraph > .black-words {
+  font-weight: bold;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .pages-link-container {
+    font-size: 1.5rem;
+  }
+
+  .batissons-h2 {
+    font-size: 3.5rem;
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .batissons-h2 {
+    font-size: 2.49rem;
+    width: 100%;
+    max-width: 325px;
+  }
+
+  .batissons-paragraph {
+    font-size: 1.1rem;
+  }
+
+  .soutenir-button {
+    font-size: 1.1rem;
+    padding: 0.3em 0.5em;
+    top: 55%;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .mosquee {
+    /* height: 260px; */
+  }
+
+  .batissons-h2 {
+    font-size: 2rem;
+    width: 100%;
+    max-width: 215px;
+  }
+
+  .batissons-paragraph {
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 303px;
+    margin-top: 3%;
+  }
+
+  .soutenir-button {
+    font-size: 0.9rem;
+    padding: 0.3em 0.5em;
+    top: 70%;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .mosquee-text {
+    margin-top: 13%;
+  }
+
+  .batissons-h2 {
+    font-size: 1.7rem;
+    width: 100%;
+    max-width: 205px;
+  }
+
+  .batissons-paragraph {
+    font-size: 0.78rem;
+    width: 100%;
+    max-width: 205px;
+    margin-top: 3%;
+  }
+
+  .soutenir-button {
+    font-size: 0.73rem;
+    padding: 0.3em 0.5em;
+    top: 57%;
+  }
+
+  .mosquee-image {
+    margin-top: 16%;
+    max-width: 77%;
+  }
+}
+/* Body style End*/
+
+/* Footer style start*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #2c2c2c;
+  color: #ffffff;
+  font-size: 0.7rem;
+  align-self: center;
+  padding: 4% 4% 2% 4%;
+}
+
+.right-footer,
+.left-footer,
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-footer {
+  font-size: 1.3rem;
+  align-items: flex-end;
+}
+
+.social-media {
+  display: flex;
+  font-size: 1.5rem;
+  width: 70%;
+  justify-content: space-around;
+  margin-top: 13%;
+}
+
+.left-footer {
+  font-size: 1rem;
+}
+
+.la-mosquee {
+  font-weight: 900;
+  font-size: 2rem;
+  width: 90%;
+  line-height: 105%;
+}
+
+.contact-info {
+  margin-top: 8%;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icons > span {
+  padding-left: 3%;
+  width: 100%;
+}
+
+/* .contact-icons > .fa-phone-square,
+.contact-icons > .fa-map-pin,
+.contact-icons > .fa-envelope {
+  color: red;
+} */
+
+.contact-icons > .fa-map-pin {
+  margin-left: 0.8%;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .pages-link-container {
+    font-size: 1.5rem;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .la-mosquee {
+    font-size: 1.6rem;
+  }
+
+  .left-footer {
+    font-size: 0.8rem;
+  }
+
+  .right-footer {
+    font-size: 1rem;
+  }
+
+  .social-media {
+    font-size: 1.1rem;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .left-footer {
+    font-size: 0.7rem;
+  }
+
+  .la-mosquee {
+    font-size: 1.3rem;
+  }
+
+  .right-footer {
+    font-size: 0.9rem;
+  }
+
+  .social-media {
+    font-size: 1rem;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer {
+    padding: 6% 4%;
+  }
+  .left-footer {
+    font-size: 0.5rem;
+  }
+
+  .la-mosquee {
+    font-size: 0.9rem;
+  }
+
+  .right-footer {
+    font-size: 0.7rem;
+  }
+
+  .social-media {
+    font-size: 0.8rem;
+  }
+}
+
+/* Footer style End*/
