@@ -7,7 +7,6 @@
 }
 
 body {
-  /* font-family: 'Passion One', cursive; */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -63,6 +62,7 @@ body {
 */
 
 @media (min-width: 1281px) {
+  /* already responsive */
 }
 
 /*
@@ -108,14 +108,6 @@ body {
 }
 
 /*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-}
-
-/*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
@@ -153,7 +145,7 @@ body {
 
   .assalam-aleikum {
     font-size: 1.8rem;
-    margin-top: 8%;
+    margin-top: 10%;
   }
 
   .pages-link-container {
@@ -236,6 +228,7 @@ h2 .digne {
 */
 
 @media (min-width: 1281px) {
+  /* already responsive */
 }
 
 /*
@@ -279,23 +272,11 @@ h2 .digne {
 }
 
 /*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-}
-
-/*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .mosquee {
-    /* height: 260px; */
-  }
-
   .batissons-h2 {
     font-size: 2rem;
     width: 100%;
@@ -346,7 +327,7 @@ h2 .digne {
   }
 
   .mosquee-image {
-    margin-top: 16%;
+    margin-top: 18%;
     max-width: 77%;
   }
 }
@@ -408,12 +389,6 @@ h2 .digne {
   width: 100%;
 }
 
-/* .contact-icons > .fa-phone-square,
-.contact-icons > .fa-map-pin,
-.contact-icons > .fa-envelope {
-  color: red;
-} */
-
 .contact-icons > .fa-map-pin {
   margin-left: 0.8%;
 }
@@ -424,6 +399,7 @@ h2 .digne {
 */
 
 @media (min-width: 1281px) {
+  /* already responsive */
 }
 
 /*
@@ -458,14 +434,6 @@ h2 .digne {
   .social-media {
     font-size: 1.1rem;
   }
-}
-
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 }
 
 /*
