@@ -144,7 +144,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .navbar {
-    margin: 7% 5%;
+    margin: 10% 5% 7% 5%;
   }
 
   .je-contribue {
@@ -152,7 +152,7 @@ body {
   }
 
   .assalam-aleikum {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     margin-top: 8%;
   }
 
