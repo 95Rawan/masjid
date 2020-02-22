@@ -33,6 +33,13 @@ body {
   padding: 0.4em;
   align-self: flex-end;
   font-size: 1.5rem;
+  transition: all 0.4s ease;
+  transform: scale(1);
+}
+
+.je-contribue:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .assalam-aleikum {
@@ -207,6 +214,13 @@ h2 .digne {
   position: absolute;
   top: 58%;
   left: 10.2%;
+  transition: all 0.4s ease;
+  transform: scale(1);
+}
+
+.soutenir-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .batissons-h2,
@@ -482,6 +496,21 @@ h2 .digne {
 
   .social-media {
     font-size: 0.8rem;
+  }
+
+  .social-media .fa-facebook-f:hover {
+    color: #3b5c9f;
+    cursor: pointer;
+  }
+
+  .social-media .fa-instagram:hover {
+    color: #d92e7f;
+    cursor: pointer;
+  }
+
+  .social-media .fa-youtube:hover {
+    color: #fa423b;
+    cursor: pointer;
   }
 }
 
