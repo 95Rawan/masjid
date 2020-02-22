@@ -370,12 +370,36 @@ h2 .digne {
   align-items: flex-end;
 }
 
+.right-footer > span a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.right-footer > span a:hover {
+  text-decoration: underline;
+}
+
 .social-media {
   display: flex;
   font-size: 1.5rem;
   width: 70%;
   justify-content: space-around;
   margin-top: 13%;
+}
+
+.social-media .fa-facebook-f:hover {
+  color: #3b5c9f;
+  cursor: pointer;
+}
+
+.social-media .fa-instagram:hover {
+  color: #d92e7f;
+  cursor: pointer;
+}
+
+.social-media .fa-youtube:hover {
+  color: #fa423b;
+  cursor: pointer;
 }
 
 .left-footer {
