@@ -1,0 +1,1307 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #edf1f3;
+}
+
+/* General style */
+.uppercase-header,
+.section4 h2,
+.section4 h4,
+.checkboxes-section h3,
+.don-blue-button,
+.green-section span,
+.abu-bakr-mosquee,
+.je-soutiens-button {
+  text-transform: uppercase;
+  font-family: 'Passion One', cursive;
+  text-align: center;
+}
+/* General style */
+
+/* Header style start */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #69d989;
+  color: #ffffff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  border-bottom: 7px solid black;
+  padding: 2% 0;
+}
+
+.je-contribue {
+  color: #000000;
+  border: 2px solid #000000;
+  background: #ffffff;
+  font-family: 'Passion One', cursive;
+  padding: 0.4em;
+  font-size: 1.5rem;
+  margin: 2% 5% 2% auto;
+  transition: all 0.4s ease;
+  transform: scale(1);
+}
+
+.je-contribue:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .je-contribue {
+    font-size: 1.3rem;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .je-contribue {
+    font-size: 1.1rem;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .je-contribue {
+    font-size: 0.9rem;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .je-contribue {
+    font-size: 0.82rem;
+  }
+}
+/* Header style End*/
+
+/* Section class="video-container" style Start*/
+.video-section {
+  display: flex;
+  align-items: center;
+  background: #69d989;
+  width: 100%;
+  color: #ffffff;
+}
+
+.abu-bakr-lines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.abu-bakr-mosquee-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #010916;
+  width: 75%;
+  height: 65px;
+  transform: skew(-7deg);
+}
+
+.abu-bakr-mosquee {
+  font-size: 2.4rem;
+}
+
+.abu-bakr-mosquee-paragraph-container {
+  border-bottom: 90px solid #010916;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transform: rotate(180deg);
+  margin-top: 7%;
+  height: 0;
+  width: 93%;
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.abu-bakr-mosquee-paragraph {
+  z-index: 3;
+  font-size: 1.27rem;
+  max-width: 770px;
+  margin-top: 1.7%;
+  transform: rotate(-180deg);
+}
+
+.je-soutiens-button {
+  background: #3e94c8;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 2%;
+  width: 37%;
+  margin-top: 8%;
+  transition: all 0.4s ease;
+  transform: scale(1);
+}
+
+.je-soutiens-button:hover {
+  transform: scale(1.1);
+  color: #000;
+  cursor: pointer;
+}
+
+.iframe-container {
+  position: relative;
+  padding-bottom: 30.4%;
+  width: 50%;
+  height: 0;
+  overflow: hidden;
+}
+
+.iframe-container .iframe,
+.iframe-container object,
+.iframe-container embed {
+  padding-bottom: 44%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 176%;
+  border: 0;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .abu-bakr-mosquee-container {
+    width: 87%;
+    margin-top: 3%;
+  }
+
+  .abu-bakr-mosquee {
+    font-size: 1.8rem;
+  }
+  .abu-bakr-mosquee-paragraph-container {
+    border-bottom: 70px solid #010916;
+  }
+
+  .abu-bakr-mosquee-paragraph {
+    font-size: 1rem;
+    max-width: 510px;
+  }
+
+  .je-soutiens-button {
+    font-size: 1.3rem;
+    width: 45%;
+    margin: 7% 0 3% 0;
+    max-width: 270px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .abu-bakr-mosquee-container {
+    width: 87%;
+    margin-top: 3%;
+    height: 60px;
+  }
+
+  .abu-bakr-mosquee {
+    font-size: 1.5rem;
+  }
+  .abu-bakr-mosquee-paragraph-container {
+    border-bottom: 60px solid #010916;
+    margin-top: 4%;
+    width: 97%;
+  }
+
+  .abu-bakr-mosquee-paragraph {
+    font-size: 0.86rem;
+    margin-top: 3%;
+    max-width: 510px;
+  }
+
+  .je-soutiens-button {
+    font-size: 1.1rem;
+    width: 51%;
+    max-width: 208px;
+    margin: 3% 0;
+  }
+
+  .iframe-container {
+    padding-bottom: 28%;
+    width: 50%;
+  }
+
+  .iframe-container .iframe,
+  .iframe-container object,
+  .iframe-container embed {
+    padding-bottom: 11%;
+    width: 100%;
+    height: 120%;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .abu-bakr-mosquee-container {
+    width: 163%;
+    margin-top: 10%;
+    height: 60px;
+  }
+
+  .abu-bakr-mosquee {
+    font-size: 1.76rem;
+  }
+  .abu-bakr-mosquee-paragraph-container {
+    border-bottom: 75px solid #010916;
+    margin-top: 6%;
+    width: 185%;
+  }
+
+  .abu-bakr-mosquee-paragraph {
+    font-size: 1rem;
+    margin-top: 2.3%;
+    max-width: 510px;
+  }
+
+  .je-soutiens-button {
+    font-size: 1rem;
+    width: 70%;
+    padding: 0.7em 0;
+    margin: 8% 0;
+    max-width: 190px;
+  }
+
+  .iframe-container {
+    padding-bottom: 56%;
+    width: 100%;
+  }
+
+  .iframe-container .iframe,
+  .iframe-container object,
+  .iframe-container embed {
+    padding-bottom: 11%;
+    width: 100%;
+    height: 120%;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .abu-bakr-mosquee-container {
+    width: 180%;
+    margin-top: 10%;
+    height: 60px;
+  }
+
+  .abu-bakr-mosquee {
+    font-size: 1.36rem;
+  }
+  .abu-bakr-mosquee-paragraph-container {
+    border-bottom: 60px solid #010916;
+    margin-top: 8%;
+    width: 188%;
+  }
+
+  .abu-bakr-mosquee-paragraph {
+    font-size: 0.8rem;
+    margin-top: 4.5%;
+    max-width: 510px;
+  }
+
+  .je-soutiens-button {
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 165px;
+    padding: 0.5em;
+    margin: 11% 0;
+  }
+
+  .iframe-container {
+    padding-bottom: 56%;
+    width: 100%;
+  }
+
+  .iframe-container .iframe,
+  .iframe-container object,
+  .iframe-container embed {
+    padding-bottom: 11%;
+    width: 100%;
+    height: 120%;
+  }
+}
+/* Section video-container style End*/
+
+/* Section section2 style Start*/
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 > p.first-paragraph,
+.section2 > p.second-paragraph {
+  font-size: 1.1rem;
+  margin-bottom: 2%;
+  max-width: 915px;
+}
+
+.uppercase-header {
+  font-size: 2.4rem;
+  margin: 5% 0% 2% 0%;
+  width: 100%;
+  max-width: 47%;
+}
+
+.bold-year {
+  font-weight: bold;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .uppercase-header {
+    max-width: 713px;
+  }
+
+  .section2 > p.first-paragraph,
+  .section2 > p.second-paragraph {
+    max-width: 760px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .uppercase-header {
+    font-size: 1.9rem;
+    max-width: 590px;
+  }
+
+  .section2 > p.first-paragraph,
+  .section2 > p.second-paragraph {
+    font-size: 0.88rem;
+    max-width: 720px;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+/* &&&&& */
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 767px) {
+  .section2 {
+    margin-top: 7%;
+  }
+
+  .uppercase-header {
+    font-size: 1.75rem;
+    max-width: 525px;
+  }
+
+  .section2 > p.first-paragraph,
+  .section2 > p.second-paragraph {
+    font-size: 0.8rem;
+    max-width: 87%;
+    margin: 2% 4%;
+  }
+}
+
+/* Section section2 style End*/
+
+/* Section checkboxes-section style Start*/
+.checkboxes-section {
+  display: flex;
+  width: 100%;
+}
+
+.red-x-container,
+.green-tick-container {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  margin: 8% 8% 4% 8%;
+  width: 100%;
+}
+
+.red-x-list,
+.green-tick-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0% 10% 7% 10%;
+}
+
+.green-tick-icon,
+.red-x-icon {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  color: #ffffff;
+  background: #dc3a39;
+  border-radius: 50%;
+  margin-bottom: 6%;
+  margin-top: -8%;
+}
+
+.green-tick-icon {
+  background: #5dca84;
+}
+
+.red-x-icon .fa-times,
+.green-tick-icon .fa-check {
+  font-size: 1.6rem;
+}
+
+.checkboxes-section h3 {
+  font-size: 1.6rem;
+  margin-bottom: 3%;
+}
+
+.red-x-list li,
+.green-tick-list li {
+  margin-top: 3.5%;
+}
+
+.list-item {
+  display: flex;
+  align-items: baseline;
+}
+
+.red-x-list .fa-square,
+.green-tick-list .fa-square {
+  font-size: 0.75rem;
+  margin: 0% 2% 0% 2%;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .red-x-container,
+  .green-tick-container {
+    margin: 8% 5% 4% 5%;
+    width: 72%;
+    max-width: 485px;
+  }
+
+  .red-x-list,
+  .green-tick-list {
+    padding: 2% 7% 7% 7%;
+  }
+
+  .red-x-list li,
+  .green-tick-list li {
+    font-size: 0.9rem;
+  }
+
+  .red-x-icon,
+  .green-tick-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .checkboxes-section h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .checkboxes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .red-x-container,
+  .green-tick-container {
+    margin: 8% 5% 8% 5%;
+    width: 72%;
+  }
+
+  .red-x-list,
+  .green-tick-list {
+    padding: 2% 7% 7% 7%;
+  }
+
+  .red-x-list li,
+  .green-tick-list li {
+    font-size: 0.9rem;
+  }
+
+  .red-x-icon,
+  .green-tick-icon {
+    width: 80px;
+    height: 80px;
+    margin-top: -8%;
+  }
+
+  .checkboxes-section h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .checkboxes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 7%;
+  }
+
+  .checkboxes-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .red-x-container,
+  .green-tick-container {
+    margin: 8% 5% 8% 5%;
+    width: 85%;
+  }
+
+  .red-x-list,
+  .green-tick-list {
+    padding: 2% 7% 7% 7%;
+  }
+
+  .red-x-list li,
+  .green-tick-list li {
+    font-size: 0.83rem;
+  }
+
+  .red-x-icon,
+  .green-tick-icon {
+    width: 70px;
+    height: 70px;
+    margin-top: -9%;
+  }
+
+  .red-x-list .fa-square,
+  .green-tick-list .fa-square {
+    font-size: 0.66rem;
+  }
+}
+/* Section checkboxes-section style End*/
+
+/* Section section4 style Start*/
+.section4 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.section4 h2 {
+  font-size: 2.4rem;
+  margin: 5% 0% 2% 0%;
+}
+
+.section4 h4 {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 2% 0% 0.5% 0%;
+}
+
+.section4 p {
+  width: 100%;
+  max-width: 70%;
+}
+
+.section4 .section4-parts {
+  margin-left: 25%;
+}
+
+.fa-hand-point-right {
+  font-size: 1.6rem;
+  margin-right: 0.5%;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .section4 p {
+    width: 100%;
+    max-width: 89%;
+  }
+
+  .section4 h4,
+  .fa-hand-point-right {
+    font-size: 1.3rem;
+  }
+
+  .section4 .section4-parts {
+    margin-left: 17%;
+    max-width: 960px;
+  }
+
+  /* .red-x-container,
+  .green-tick-container {
+    margin: 8% 5% 4% 5%;
+  } */
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section4 .section4-parts {
+    margin-left: 10%;
+  }
+
+  .section4 h2 {
+    margin: 5% 0%;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .section4 .section4-parts {
+    margin-left: 10%;
+  }
+
+  .section4 h2 {
+    margin-top: 5%;
+  }
+
+  .section4 h4,
+  .fa-hand-point-right {
+    font-size: 1.1rem;
+  }
+  .section4 h4 {
+    margin-top: 6%;
+  }
+
+  .section4 p {
+    max-width: 92%;
+  }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .section4 .section4-parts {
+    margin-left: 7%;
+  }
+
+  .section4 h2 {
+    margin-top: 5%;
+  }
+
+  .section4 h4,
+  .fa-hand-point-right {
+    font-size: 0.9rem;
+  }
+  .section4 h4 {
+    margin-top: 6%;
+  }
+
+  .section4 p {
+    max-width: 92%;
+  }
+}
+
+/* Section section4 style End*/
+
+/* Section green-section style Start*/
+.green-section {
+  display: flex;
+  justify-content: center;
+  background: #69d989;
+  padding: 5% 5% 5% 5%;
+}
+
+.green-section .white-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  width: 37%;
+  padding: 3% 0%;
+}
+
+.green-section .green-section-title {
+  font-size: 2rem;
+  padding: 0 7%;
+  max-width: 535px;
+}
+
+.don-blue-button {
+  background: #3e94c8;
+  color: #ffffff;
+  padding: 0.6em 0;
+  width: 42%;
+  margin-top: 8%;
+  font-size: 1.5rem;
+  transition: all 0.4s ease;
+  transform: scale(1);
+}
+
+.don-blue-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background: #dc3a39;
+}
+
+.don-blue-button .fa-unlock-alt {
+  font-size: 1.4rem;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .green-section {
+    padding: 8% 5% 8% 5%;
+  }
+  .green-section .green-section-title {
+    font-size: 1.7rem;
+  }
+
+  .don-blue-button {
+    width: 50%;
+    max-width: 200px;
+    font-size: 1.27rem;
+  }
+
+  .don-blue-button .fa-unlock-alt {
+    font-size: 1.2rem;
+  }
+
+  .green-section .white-box {
+    width: 43%;
+    max-width: 425px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .green-section {
+    padding: 8% 5% 8% 5%;
+  }
+
+  .green-section .green-section-title {
+    font-size: 1.5rem;
+    max-width: 400px;
+  }
+
+  .don-blue-button {
+    width: 50%;
+    max-width: 200px;
+    font-size: 1.27rem;
+    margin: 5% 0;
+  }
+
+  .don-blue-button .fa-unlock-alt {
+    font-size: 1.2rem;
+  }
+
+  .green-section .white-box {
+    width: 50%;
+    max-width: 400px;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .green-section {
+    padding: 8% 5% 8% 5%;
+  }
+
+  .green-section .green-section-title {
+    font-size: 1.2rem;
+    max-width: 400px;
+  }
+
+  .don-blue-button {
+    width: 57%;
+    max-width: 140px;
+    font-size: 1.18rem;
+    margin: 7% 0 2% 0;
+  }
+
+  .don-blue-button .fa-unlock-alt {
+    font-size: 1rem;
+  }
+
+  .green-section .white-box {
+    width: 60%;
+    max-width: 300px;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .green-section {
+    margin-top: 7%;
+    padding: 8% 5% 8% 5%;
+  }
+
+  .green-section .green-section-title {
+    font-size: 0.9rem;
+    max-width: 400px;
+  }
+
+  .don-blue-button {
+    width: 57%;
+    max-width: 140px;
+    font-size: 0.8rem;
+    margin: 7% 0 2% 0;
+  }
+
+  .don-blue-button .fa-unlock-alt {
+    font-size: 0.8rem;
+  }
+
+  .green-section .white-box {
+    width: 75%;
+    max-width: 216px;
+  }
+}
+/* Section green-section style End*/
+
+/* Footer style start*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #2c2c2c;
+  color: #ffffff;
+  font-size: 0.7rem;
+  align-self: center;
+  padding: 4% 4% 2% 4%;
+}
+
+.right-footer,
+.left-footer,
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-footer {
+  font-size: 1.3rem;
+  align-items: flex-end;
+}
+
+.right-footer > span a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.right-footer > span a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  display: flex;
+  font-size: 1.5rem;
+  width: 70%;
+  justify-content: space-around;
+  margin-top: 13%;
+}
+
+.social-media .fa-facebook-f:hover {
+  color: #3b5c9f;
+  cursor: pointer;
+}
+
+.social-media .fa-instagram:hover {
+  color: #d92e7f;
+  cursor: pointer;
+}
+
+.social-media .fa-youtube:hover {
+  color: #fa423b;
+  cursor: pointer;
+}
+
+.left-footer {
+  font-size: 1rem;
+}
+
+.la-mosquee {
+  font-weight: 900;
+  font-size: 2rem;
+  width: 90%;
+  line-height: 105%;
+}
+
+.contact-info {
+  margin-top: 8%;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icons > span {
+  padding-left: 3%;
+  width: 100%;
+}
+
+.contact-icons > .fa-map-pin {
+  margin-left: 0.8%;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .pages-link-container {
+    font-size: 1.5rem;
+  }
+
+  .right-footer {
+    font-size: 1.1rem;
+  }
+
+  .left-footer {
+    font-size: 0.9rem;
+  }
+
+  .la-mosquee {
+    font-size: 1.8rem;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .la-mosquee {
+    font-size: 1.6rem;
+  }
+
+  .left-footer {
+    font-size: 0.8rem;
+  }
+
+  .right-footer {
+    font-size: 1rem;
+  }
+
+  .social-media {
+    font-size: 1.1rem;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .left-footer {
+    font-size: 0.7rem;
+  }
+
+  .la-mosquee {
+    font-size: 1.3rem;
+  }
+
+  .right-footer {
+    font-size: 0.9rem;
+  }
+
+  .social-media {
+    font-size: 1rem;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer {
+    padding: 6% 4%;
+  }
+  .left-footer {
+    font-size: 0.5rem;
+  }
+
+  .la-mosquee {
+    font-size: 0.9rem;
+  }
+
+  .right-footer {
+    font-size: 0.7rem;
+  }
+
+  .social-media {
+    font-size: 0.8rem;
+  }
+}
+
+/* Footer style End*/
+
+/* General media query */
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .uppercase-header,
+  .section4 h2 {
+    font-size: 2.2rem;
+  }
+
+  .section2 > p.first-paragraph,
+  .section2 > p.second-paragraph,
+  .section4-parts > p {
+    font-size: 0.88rem;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .uppercase-header,
+  .section4 h2 {
+    font-size: 1.9rem;
+  }
+
+  .section2 > p.first-paragraph,
+  .section2 > p.second-paragraph,
+  .section4-parts > p {
+    font-size: 0.88rem;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .uppercase-header,
+  .section4 h2 {
+    font-size: 1.7rem;
+  }
+
+  .section2 > p.first-paragraph,
+  .section2 > p.second-paragraph,
+  .section4-parts > p {
+    font-size: 0.8rem;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .uppercase-header,
+  .section4 h2 {
+    font-size: 1.37rem;
+  }
+
+  .section2 > p.first-paragraph,
+  .section2 > p.second-paragraph,
+  .section4-parts > p {
+    font-size: 0.8rem;
+  }
+}
+/* Section green-section style End*/
+/* General media query */
