@@ -64,6 +64,9 @@ body {
 */
 
 @media (min-width: 1281px) {
+  .je-contribue {
+    font-size: 1.3rem;
+  }
 }
 
 /*
@@ -86,14 +89,6 @@ body {
   .je-contribue {
     font-size: 1.1rem;
   }
-}
-
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 }
 
 /*
@@ -212,6 +207,30 @@ body {
 */
 
 @media (min-width: 1281px) {
+  .abu-bakr-mosquee-container {
+    width: 87%;
+    margin-top: 3%;
+  }
+
+  .abu-bakr-mosquee {
+    font-size: 2.3rem;
+  }
+  .abu-bakr-mosquee-paragraph-container {
+    border-bottom: 85px solid #010916;
+  }
+
+  .abu-bakr-mosquee-paragraph {
+    font-size: 1.2rem;
+    max-width: 635px;
+    margin-top: 2%;
+  }
+
+  .je-soutiens-button {
+    font-size: 1.3rem;
+    width: 45%;
+    margin: 7% 0 3% 0;
+    max-width: 270px;
+  }
 }
 
 /*
@@ -437,6 +456,14 @@ body {
 */
 
 @media (min-width: 1281px) {
+  .uppercase-header {
+    max-width: 713px;
+  }
+
+  .section2 > p.first-paragraph,
+  .section2 > p.second-paragraph {
+    max-width: 760px;
+  }
 }
 
 /*
@@ -749,6 +776,20 @@ body {
 */
 
 @media (min-width: 1281px) {
+  .section4 p {
+    width: 100%;
+    max-width: 89%;
+  }
+
+  .section4 h4,
+  .fa-hand-point-right {
+    font-size: 1.3rem;
+  }
+
+  .section4 .section4-parts {
+    margin-left: 17%;
+    max-width: 960px;
+  }
 }
 
 /*
@@ -771,11 +812,6 @@ body {
     margin-left: 17%;
     max-width: 960px;
   }
-
-  /* .red-x-container,
-  .green-tick-container {
-    margin: 8% 5% 4% 5%;
-  } */
 }
 
 /*
@@ -898,6 +934,27 @@ body {
 */
 
 @media (min-width: 1281px) {
+  .green-section {
+    padding: 8% 5% 8% 5%;
+  }
+  .green-section .green-section-title {
+    font-size: 1.7rem;
+  }
+
+  .don-blue-button {
+    width: 50%;
+    max-width: 200px;
+    font-size: 1.27rem;
+  }
+
+  .don-blue-button .fa-unlock-alt {
+    font-size: 1.2rem;
+  }
+
+  .green-section .white-box {
+    width: 43%;
+    max-width: 425px;
+  }
 }
 
 /*
@@ -1117,6 +1174,21 @@ body {
 */
 
 @media (min-width: 1281px) {
+  .pages-link-container {
+    font-size: 1.5rem;
+  }
+
+  .right-footer {
+    font-size: 1.1rem;
+  }
+
+  .left-footer {
+    font-size: 0.9rem;
+  }
+
+  .la-mosquee {
+    font-size: 1.8rem;
+  }
 }
 
 /*
