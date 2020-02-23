@@ -38,7 +38,6 @@ body {
   top: 0;
   z-index: 9999;
   border-bottom: 7px solid black;
-  padding: 2% 0;
 }
 
 .je-contribue {
@@ -46,11 +45,12 @@ body {
   border: 2px solid #000000;
   background: #ffffff;
   font-family: 'Passion One', cursive;
-  padding: 0.4em;
+  padding: 0.5em 1.2em;
   font-size: 1.5rem;
-  margin: 2% 5% 2% auto;
+  margin: 1% 5% 1% auto;
   transition: all 0.4s ease;
   transform: scale(1);
+  text-decoration: none;
 }
 
 .je-contribue:hover {
@@ -64,9 +64,9 @@ body {
 */
 
 @media (min-width: 1281px) {
-  .je-contribue {
+  /* .je-contribue {
     font-size: 1.3rem;
-  }
+  } */
 }
 
 /*
@@ -136,12 +136,13 @@ body {
   justify-content: center;
   background: #010916;
   width: 75%;
-  height: 65px;
+  height: 70px;
   transform: skew(-7deg);
 }
 
 .abu-bakr-mosquee {
   font-size: 2.4rem;
+  transform: skew(7deg);
 }
 
 .abu-bakr-mosquee-paragraph-container {
@@ -209,26 +210,10 @@ body {
 @media (min-width: 1281px) {
   .abu-bakr-mosquee-container {
     width: 87%;
-    margin-top: 3%;
-  }
-
-  .abu-bakr-mosquee {
-    font-size: 2.3rem;
-  }
-  .abu-bakr-mosquee-paragraph-container {
-    border-bottom: 85px solid #010916;
-  }
-
-  .abu-bakr-mosquee-paragraph {
-    font-size: 1.2rem;
-    max-width: 635px;
-    margin-top: 2%;
   }
 
   .je-soutiens-button {
-    font-size: 1.3rem;
-    width: 45%;
-    margin: 7% 0 3% 0;
+    width: 42%;
     max-width: 270px;
   }
 }
@@ -456,13 +441,10 @@ body {
 */
 
 @media (min-width: 1281px) {
-  .uppercase-header {
-    max-width: 713px;
-  }
-
   .section2 > p.first-paragraph,
   .section2 > p.second-paragraph {
-    max-width: 760px;
+    font-size: 1.2rem;
+    max-width: 1000px;
   }
 }
 
@@ -604,6 +586,33 @@ body {
 */
 
 @media (min-width: 1281px) {
+  .red-x-container {
+    margin: 8% 7% 8% 3%;
+  }
+  .green-tick-container {
+    margin: 8% 3% 8% 7%;
+  }
+
+  .red-x-icon,
+  .green-tick-icon {
+    width: 115px;
+    height: 115px;
+    margin-top: -9%;
+    margin-bottom: 8.5%;
+  }
+
+  .list-item span {
+    font-size: 1.2rem;
+  }
+
+  .checkboxes-section h3 {
+    font-size: 2rem;
+  }
+
+  .red-x-icon .fa-times,
+  .green-tick-icon .fa-check {
+    font-size: 1.8rem;
+  }
 }
 
 /*
@@ -776,19 +785,19 @@ body {
 */
 
 @media (min-width: 1281px) {
-  .section4 p {
-    width: 100%;
-    max-width: 89%;
+  .section4 h4 {
+    font-size: 1.7rem;
+    margin: 2% 0% 0.7% 0%;
   }
 
-  .section4 h4,
-  .fa-hand-point-right {
-    font-size: 1.3rem;
+  .section4 p {
+    font-size: 1.2rem;
+    max-width: 88%;
+    margin-bottom: 3%;
   }
 
   .section4 .section4-parts {
-    margin-left: 17%;
-    max-width: 960px;
+    margin-left: 20%;
   }
 }
 
@@ -899,12 +908,14 @@ body {
   background: #ffffff;
   width: 37%;
   padding: 3% 0%;
+  transform: skew(1deg);
 }
 
 .green-section .green-section-title {
   font-size: 2rem;
   padding: 0 7%;
   max-width: 535px;
+  transform: skew(-1deg);
 }
 
 .don-blue-button {
@@ -916,6 +927,7 @@ body {
   font-size: 1.5rem;
   transition: all 0.4s ease;
   transform: scale(1);
+  transform: skew(-1deg);
 }
 
 .don-blue-button:hover {
@@ -934,26 +946,16 @@ body {
 */
 
 @media (min-width: 1281px) {
-  .green-section {
-    padding: 8% 5% 8% 5%;
-  }
-  .green-section .green-section-title {
-    font-size: 1.7rem;
-  }
-
   .don-blue-button {
-    width: 50%;
-    max-width: 200px;
-    font-size: 1.27rem;
-  }
-
-  .don-blue-button .fa-unlock-alt {
-    font-size: 1.2rem;
+    margin-bottom: 3%;
   }
 
   .green-section .white-box {
-    width: 43%;
-    max-width: 425px;
+    width: 41%;
+  }
+
+  .green-section .green-section-title {
+    max-width: 590px;
   }
 }
 
@@ -1174,21 +1176,6 @@ body {
 */
 
 @media (min-width: 1281px) {
-  .pages-link-container {
-    font-size: 1.5rem;
-  }
-
-  .right-footer {
-    font-size: 1.1rem;
-  }
-
-  .left-footer {
-    font-size: 0.9rem;
-  }
-
-  .la-mosquee {
-    font-size: 1.8rem;
-  }
 }
 
 /*
