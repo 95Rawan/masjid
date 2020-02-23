@@ -30,11 +30,12 @@ body {
   border: 2px solid #000000;
   background: #ffffff;
   font-family: 'Passion One', cursive;
-  padding: 0.4em;
-  align-self: flex-end;
+  padding: 0.5em 1.2em;
   font-size: 1.5rem;
+  margin: 1% 5% 1% auto;
   transition: all 0.4s ease;
   transform: scale(1);
+  text-decoration: none;
 }
 
 .je-contribue:hover {
@@ -216,6 +217,8 @@ h2 .digne {
   left: 10.2%;
   transition: all 0.4s ease;
   transform: scale(1);
+  text-decoration: none;
+  width: 9%;
 }
 
 .soutenir-button:hover {
@@ -242,7 +245,12 @@ h2 .digne {
 */
 
 @media (min-width: 1281px) {
-  /* already responsive */
+  .soutenir-button {
+    padding: 0.4em 0.5em;
+    top: 59%;
+    width: 11%;
+    max-width: 155px;
+  }
 }
 
 /*
@@ -259,6 +267,13 @@ h2 .digne {
     font-size: 3.5rem;
     width: 100%;
     max-width: 360px;
+  }
+
+  .soutenir-button {
+    padding: 0.4em 0.5em;
+    top: 59%;
+    width: 16%;
+    max-width: 130px;
   }
 }
 
@@ -280,8 +295,10 @@ h2 .digne {
 
   .soutenir-button {
     font-size: 1.1rem;
-    padding: 0.3em 0.5em;
-    top: 55%;
+    padding: 0.4em 0.5em;
+    top: 57%;
+    width: 16%;
+    max-width: 130px;
   }
 }
 
@@ -306,8 +323,10 @@ h2 .digne {
 
   .soutenir-button {
     font-size: 0.9rem;
-    padding: 0.3em 0.5em;
+    padding: 0.4em 0.5em;
     top: 70%;
+    width: 20%;
+    max-width: 100px;
   }
 }
 
@@ -336,8 +355,10 @@ h2 .digne {
 
   .soutenir-button {
     font-size: 0.73rem;
-    padding: 0.3em 0.5em;
     top: 57%;
+    padding: 0.4em 0.5em;
+    width: 25%;
+    max-width: 80px;
   }
 
   .mosquee-image {
