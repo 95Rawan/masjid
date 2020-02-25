@@ -247,9 +247,10 @@ h2 .digne {
   .soutenir-button {
     font-size: 1.8rem;
     padding: 0.4em 0.5em;
-    top: 50%;
+    font-size: 1.5rem;
+    top: 60%;
     width: 15%;
-    max-width: 175px;
+    max-width: 155px;
   }
 }
 
