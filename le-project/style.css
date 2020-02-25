@@ -64,9 +64,10 @@ body {
 */
 
 @media (min-width: 1281px) {
-  /* .je-contribue {
-    font-size: 1.3rem;
-  } */
+  .je-contribue {
+    padding: 0.3em 1em;
+    margin: 1.2% 5% 1.2% auto;
+  }
 }
 
 /*
@@ -77,6 +78,8 @@ body {
 @media (min-width: 1025px) and (max-width: 1280px) {
   .je-contribue {
     font-size: 1.3rem;
+    padding: 0.3em 1em;
+    margin: 1.4% 5% 1.4% auto;
   }
 }
 
@@ -88,6 +91,8 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .je-contribue {
     font-size: 1.1rem;
+    padding: 0.3em 1em;
+    margin: 2% 5% 2% auto;
   }
 }
 
@@ -98,7 +103,9 @@ body {
 
 @media (min-width: 481px) and (max-width: 767px) {
   .je-contribue {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    margin: 2.7% 5% 2.7% auto;
   }
 }
 
@@ -110,6 +117,8 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
   .je-contribue {
     font-size: 0.82rem;
+    padding: 0.3em 1em;
+    margin: 2.7% 5% 2.7% auto;
   }
 }
 /* Header style End*/
@@ -367,7 +376,7 @@ body {
   .abu-bakr-mosquee-container {
     width: 180%;
     margin-top: 10%;
-    height: 60px;
+    height: 50px;
   }
 
   .abu-bakr-mosquee {
@@ -428,7 +437,7 @@ body {
   font-size: 2.4rem;
   margin: 5% 0% 2% 0%;
   width: 100%;
-  max-width: 47%;
+  /* max-width: 47%; */
 }
 
 .bold-year {
@@ -454,13 +463,9 @@ body {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .uppercase-header {
-    max-width: 713px;
-  }
-
   .section2 > p.first-paragraph,
   .section2 > p.second-paragraph {
-    max-width: 760px;
+    max-width: 825px;
   }
 }
 
@@ -472,13 +477,13 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .uppercase-header {
     font-size: 1.9rem;
-    max-width: 590px;
+    /* max-width: 590px; */
   }
 
   .section2 > p.first-paragraph,
   .section2 > p.second-paragraph {
     font-size: 0.88rem;
-    max-width: 720px;
+    max-width: 725px;
   }
 }
 
@@ -498,7 +503,8 @@ body {
 
   .uppercase-header {
     font-size: 1.75rem;
-    max-width: 525px;
+    max-width: 560px;
+    padding: 0 4%;
   }
 
   .section2 > p.first-paragraph,
@@ -621,6 +627,12 @@ body {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .red-x-container {
+    margin: 8% 5% 4% 4%;
+  }
+  .green-tick-container {
+    margin: 8% 4% 4% 5%;
+  }
 }
 
 /*
@@ -631,9 +643,15 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .red-x-container,
   .green-tick-container {
-    margin: 8% 5% 4% 5%;
     width: 72%;
     max-width: 485px;
+  }
+
+  .red-x-container {
+    margin: 8% 5% 4% 4%;
+  }
+  .green-tick-container {
+    margin: 8% 4% 4% 5%;
   }
 
   .red-x-list,
@@ -673,8 +691,8 @@ body {
 
   .red-x-container,
   .green-tick-container {
-    margin: 8% 5% 8% 5%;
-    width: 72%;
+    margin: 8% 1%;
+    width: 77%;
   }
 
   .red-x-list,
@@ -719,13 +737,13 @@ body {
 
   .red-x-container,
   .green-tick-container {
-    margin: 8% 5% 8% 5%;
+    margin: 8% 1%;
     width: 85%;
   }
 
   .red-x-list,
   .green-tick-list {
-    padding: 2% 7% 7% 7%;
+    padding: 2% 5% 7% 5%;
   }
 
   .red-x-list li,
@@ -797,7 +815,7 @@ body {
   }
 
   .section4 .section4-parts {
-    margin-left: 20%;
+    margin: 0 2% 0% 8%;
   }
 }
 
@@ -818,8 +836,8 @@ body {
   }
 
   .section4 .section4-parts {
-    margin-left: 17%;
     max-width: 960px;
+    margin: 0 0% 2% 13%;
   }
 }
 
@@ -829,12 +847,24 @@ body {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .section4 {
+    margin: 0% 3% 5% 3%;
+  }
+
   .section4 .section4-parts {
-    margin-left: 10%;
+    margin: 0 3% 2% 5%;
+  }
+
+  .section4-parts > p {
+    font-size: 0.9rem;
   }
 
   .section4 h2 {
     margin: 5% 0%;
+  }
+
+  .section4 p {
+    max-width: 93%;
   }
 }
 
@@ -844,12 +874,17 @@ body {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .section4 {
+    margin: 0% 3% 5% 3%;
+  }
+
   .section4 .section4-parts {
-    margin-left: 10%;
+    margin: 0 5%;
   }
 
   .section4 h2 {
     margin-top: 5%;
+    padding: 0 5%;
   }
 
   .section4 h4,
@@ -861,7 +896,7 @@ body {
   }
 
   .section4 p {
-    max-width: 92%;
+    max-width: 100%;
   }
 }
 /*
@@ -870,24 +905,31 @@ body {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .section4 {
+    margin: 0% 3% 5% 3%;
+  }
+
   .section4 .section4-parts {
-    margin-left: 7%;
+    margin: 0 2%;
   }
 
   .section4 h2 {
     margin-top: 5%;
   }
 
-  .section4 h4,
-  .fa-hand-point-right {
+  .section4 h4 {
     font-size: 0.9rem;
+  }
+
+  .fa-hand-point-right {
+    font-size: 0.8rem;
   }
   .section4 h4 {
     margin-top: 6%;
   }
 
   .section4 p {
-    max-width: 92%;
+    max-width: 100%;
   }
 }
 
@@ -951,7 +993,8 @@ body {
   }
 
   .green-section .white-box {
-    width: 41%;
+    width: 53%;
+    max-width: 610px;
   }
 
   .green-section .green-section-title {
@@ -983,8 +1026,8 @@ body {
   }
 
   .green-section .white-box {
-    width: 43%;
-    max-width: 425px;
+    width: 65%;
+    max-width: 470px;
   }
 }
 
@@ -1000,7 +1043,7 @@ body {
 
   .green-section .green-section-title {
     font-size: 1.5rem;
-    max-width: 400px;
+    max-width: 450px;
   }
 
   .don-blue-button {
@@ -1015,8 +1058,8 @@ body {
   }
 
   .green-section .white-box {
-    width: 50%;
-    max-width: 400px;
+    width: 55%;
+    max-width: 425px;
   }
 }
 
@@ -1047,7 +1090,7 @@ body {
   }
 
   .green-section .white-box {
-    width: 60%;
+    width: 65%;
     max-width: 300px;
   }
 }
@@ -1297,13 +1340,13 @@ body {
   .section2 > p.first-paragraph,
   .section2 > p.second-paragraph,
   .section4-parts > p {
-    font-size: 0.88rem;
+    font-size: 1rem;
   }
 }
 
 /*
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1311,20 +1354,6 @@ body {
   .section4 h2 {
     font-size: 1.9rem;
   }
-
-  .section2 > p.first-paragraph,
-  .section2 > p.second-paragraph,
-  .section4-parts > p {
-    font-size: 0.88rem;
-  }
-}
-
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 }
 
 /*
@@ -1341,7 +1370,7 @@ body {
   .section2 > p.first-paragraph,
   .section2 > p.second-paragraph,
   .section4-parts > p {
-    font-size: 0.8rem;
+    font-size: 0.89rem;
   }
 }
 
