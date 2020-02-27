@@ -1193,6 +1193,8 @@ body {
   font-size: 2rem;
   width: 90%;
   line-height: 105%;
+  text-decoration: none;
+  color: white;
 }
 
 .contact-info {
